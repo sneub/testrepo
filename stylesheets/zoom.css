@@ -1,0 +1,13 @@
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+.zoom img {
+    display: block;
+}
+.zoom img::selection { background-color: transparent; }
+
+.step {
+    font-weight: bold;
+    margin-top: 30px;
+}
